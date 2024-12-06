@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Features section */
+#features {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#features h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#features ul {
+    list-style: none;
+    padding: 0;
+}
+
+#features li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#cta {
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#cta h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+#cta p {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+#cta button {
+    background-color: #fff;
+    color: #28a745;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#cta button:hover {
+    background-color: #f1f1f1;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+footer p:last-child {
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p,
+    #features h2,
+    #cta h2,
+    #cta p {
+        font-size: 1.5em;
+    }
+
+    #cta button {
+        padding: 12px 25px;
+    }
+}
